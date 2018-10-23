@@ -1,1 +1,40 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(67,5): error MSB8020: The build tools for v140 (Platform Toolset = 'v140') cannot be found. To build using the v140 build tools, please install v140 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution".
+﻿  Connect4.cpp
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.h(46): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.h(46): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.h(46): error C2997: 'CGameBoard::k_ai8BoardElementColours': array bound cannot be deduced from an in-class initializer
+  c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.h(40): note: see declaration of 'CGameBoard::k_ai8BoardElementColours'
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\connect4.cpp(243): error C2065: 'cCurrentGameBoard': undeclared identifier
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\connect4.cpp(243): error C2228: left of '.g_aaiBoard' must have class/struct/union
+  c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\connect4.cpp(243): note: type is 'unknown-type'
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\connect4.cpp(243): error C2065: 'g_aaiBoard': undeclared identifier
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\connect4.cpp(319): error C2065: 'g_aaiBoard': undeclared identifier
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\connect4.cpp(347): error C2065: 'g_aaiBoard': undeclared identifier
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\connect4.cpp(359): error C2065: 'g_aaiBoard': undeclared identifier
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\connect4.cpp(488): error C3861: 'RenderBoard': identifier not found
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\connect4.cpp(518): error C3861: 'RenderBoard': identifier not found
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\connect4.cpp(575): error C2065: 'g_aaiBoard': undeclared identifier
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\connect4.cpp(588): error C2065: 'g_aaiBoard': undeclared identifier
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\connect4.cpp(629): error C2065: 'g_aaiBoard': undeclared identifier
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\connect4.cpp(642): error C2065: 'g_aaiBoard': undeclared identifier
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\connect4.cpp(684): error C2065: 'g_aaiBoard': undeclared identifier
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\connect4.cpp(698): error C2065: 'g_aaiBoard': undeclared identifier
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\connect4.cpp(740): error C2065: 'g_aaiBoard': undeclared identifier
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\connect4.cpp(754): error C2065: 'g_aaiBoard': undeclared identifier
+  CGameBoard.cpp
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.h(13): error C2143: syntax error: missing ';' before '*'
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.h(13): error C2238: unexpected token(s) preceding ';'
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.h(46): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.h(46): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.h(46): error C2997: 'CGameBoard::k_ai8BoardElementColours': array bound cannot be deduced from an in-class initializer
+  c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.h(40): note: see declaration of 'CGameBoard::k_ai8BoardElementColours'
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.h(50): error C2061: syntax error: identifier 'HANDLE'
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.cpp(13): error C2511: 'CGameBoard::CGameBoard(HANDLE *)': overloaded member function not found in 'CGameBoard'
+  c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.h(3): note: see declaration of 'CGameBoard'
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.cpp(14): error C2065: 'phwndConsole': undeclared identifier
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.cpp(73): error C2065: 'phwndConsole': undeclared identifier
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.cpp(95): error C2065: 'phwndConsole': undeclared identifier
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.cpp(99): error C2065: 'phwndConsole': undeclared identifier
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.cpp(106): error C2065: 'phwndConsole': undeclared identifier
+c:\users\danda\documents\homework\connect4\connect4\1_connect4\template\connect4\cgameboard.cpp(116): error C2065: 'phwndConsole': undeclared identifier
+  Generating Code...

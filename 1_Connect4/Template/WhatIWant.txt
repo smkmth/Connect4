@@ -1,0 +1,3 @@
+
+
+To restructure this game of connect4 to use classes. 
